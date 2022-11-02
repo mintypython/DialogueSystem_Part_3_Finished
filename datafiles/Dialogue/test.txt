@@ -1,0 +1,12 @@
+LABEL example
+ADD Mark spr_red LEFT
+ADD Ben spr_blue RIGHT
+SAY 'Hello there!'
+SPRITE Mark spr_blue
+SAY 'How are you?'
+REMOVE Mark
+END
+
+LABEL newOne
+SAY 'Bye now!'
+END

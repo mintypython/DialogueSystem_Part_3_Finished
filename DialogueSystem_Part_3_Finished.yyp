@@ -1,0 +1,60 @@
+{
+  "resourceType": "GMProject",
+  "resourceVersion": "1.6",
+  "name": "DialogueSystem_Part_3_Finished",
+  "resources": [
+    {"id":{"name":"spr_option_arrow","path":"sprites/spr_option_arrow/spr_option_arrow.yy",},"order":5,},
+    {"id":{"name":"spr_option","path":"sprites/spr_option/spr_option.yy",},"order":6,},
+    {"id":{"name":"scr_typing","path":"scripts/scr_typing/scr_typing.yy",},"order":0,},
+    {"id":{"name":"spr_portrait_sam","path":"sprites/spr_portrait_sam/spr_portrait_sam.yy",},"order":0,},
+    {"id":{"name":"fnt_name","path":"fonts/fnt_name/fnt_name.yy",},"order":1,},
+    {"id":{"name":"spr_portrait_sam_mad","path":"sprites/spr_portrait_sam_mad/spr_portrait_sam_mad.yy",},"order":2,},
+    {"id":{"name":"fnt_text","path":"fonts/fnt_text/fnt_text.yy",},"order":0,},
+    {"id":{"name":"spr_portrait_rudy","path":"sprites/spr_portrait_rudy/spr_portrait_rudy.yy",},"order":1,},
+    {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"order":0,},
+    {"id":{"name":"scr_topics","path":"scripts/scr_topics/scr_topics.yy",},"order":2,},
+    {"id":{"name":"spr_name","path":"sprites/spr_name/spr_name.yy",},"order":4,},
+    {"id":{"name":"spr_portrait","path":"sprites/spr_portrait/spr_portrait.yy",},"order":3,},
+    {"id":{"name":"obj_demo","path":"objects/obj_demo/obj_demo.yy",},"order":1,},
+    {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},"order":3,},
+    {"id":{"name":"scr_actions","path":"scripts/scr_actions/scr_actions.yy",},"order":1,},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+  ],
+  "Options": [
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
+    {"name":"Main","path":"options/main/options_main.yy",},
+    {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
+  ],
+  "defaultScriptType": 1,
+  "isEcma": false,
+  "configs": {
+    "name": "Default",
+    "children": [],
+  },
+  "RoomOrderNodes": [
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy","order":7,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy","order":9,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy","order":10,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy","order":5,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy","order":1,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Portrait","folderPath":"folders/Sprites/Portrait.yy","order":7,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Textbox","folderPath":"folders/Sprites/Textbox.yy","order":6,},
+  ],
+  "AudioGroups": [
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+  ],
+  "TextureGroups": [
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+  ],
+  "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"test.txt","CopyToMask":-1,"filePath":"datafiles/Dialogue",},
+  ],
+  "MetaData": {
+    "IDEVersion": "2022.8.1.37",
+  },
+}
